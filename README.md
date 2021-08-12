@@ -10,6 +10,10 @@ You can directly install MySQL using APT package manager. It is better to update
 sudo apt update
 
 sudo apt install mysql-server
+
+sudo service mysql start
+
+sudo systemctl enable mysql
 ```
 
 ## Step - 2 Security Settings
